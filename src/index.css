@@ -15,6 +15,10 @@ body {
   height: 100vh;
 }
 
+.res {
+  width: 100%;
+}
+
 .fblue {
   background-color: #3B5998
 }
