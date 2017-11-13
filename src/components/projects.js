@@ -31,7 +31,7 @@ class Projects extends React.Component{
         <div className="item">
           <div className="image">
             <h1 className="projectTitle">LHFT</h1>
-            <img src={require("../images/projectLogos/fim.png")} alt=""/>
+            <img src={require("../images/projectLogos/lets.png")} alt=""/>
           </div>
           <div className="middle aligned content">
             <div className="ui top attached segment">
