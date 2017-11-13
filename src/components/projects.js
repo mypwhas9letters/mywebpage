@@ -5,47 +5,93 @@ class Projects extends React.Component{
   render() {
     return(
       <div className="ui container">
+        <div className="ui divided items">
 
-        <h1>Parallel</h1>
-        <p>An Airbnb for parking</p>
-        <a href="https://parallelp.herokuapp.com" target="_blank" rel="noopener noreferrer">Link to Project</a>
-        <br/>
-        <a>GitHub repo</a>
-        <br/>
-        <a>Demo</a>
-        <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+          <div className="item">
+            <div className="image">
+              <h1 className="projectTitle">Parallel</h1>
+              <img src={require("../images/projectLogos/logo.png")} alt=""/>
+            </div>
+            <div className="middle aligned content">
+              <div className="ui top attached segment">
+                <p>Description: An Airbnb for parking spaces</p>
+              </div>
+              <div className="ui attached segment">
+                <a href="https://parallelp.herokuapp.com" target="_blank" rel="noopener noreferrer">Link to Project</a>
+                <a>GitHub repo</a>
+                <a>Demo</a>
+              </div>
+              <h4 className="ui bottom attached segment">
+                <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+              </h4>
+            </div>
+          </div>
 
 
+        <div className="item">
+          <div className="image">
+            <h1 className="projectTitle">LHFT</h1>
+            <img src={require("../images/projectLogos/fim.png")} alt=""/>
+          </div>
+          <div className="middle aligned content">
+            <div className="ui top attached segment">
+              <p>Description: Social Networking Events App</p>
+            </div>
+            <div className="ui attached segment">
+              <a href="https://lets-events.herokuapp.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
+              <a>GitHub repo</a>
+              <a>Demo</a>
+            </div>
+            <h4 className="ui bottom attached segment">
+              <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+            </h4>
+          </div>
+        </div>
 
-        <h1>Lets Have Fun Together</h1>
-        <p>Social Networking Events Application</p>
-        <a href="https://lets-events.herokuapp.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
-        <br/>
-        <a>GitHub repo: </a>
-        <br/>
-        <a>Demo</a>
-        <p>Technologies Used: </p>
 
-        <h1>Posigram</h1>
-        <p>Photo Sharing Application Where Negative Comments Are Blocked</p>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
-        <br/>
-        <a>GitHub repo: </a>
-        <br/>
-        <a>Demo</a>
-        <p>Technologies Used: </p>
+        <div className="item">
+          <div className="image">
+            <h1 className="projectTitle">Posigram</h1>
+            <img src={require("../images/projectLogos/instaFam.png")} alt=""/>
+          </div>
+          <div className="middle aligned content">
+            <div className="ui top attached segment">
+              <p>Description: Photo Sharing Application Where Negative Comments Are Blocked</p>
+            </div>
+            <div className="ui attached segment">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
+              <a>GitHub repo</a>
+              <a>Demo</a>
+            </div>
+            <h4 className="ui bottom attached segment">
+              <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+            </h4>
+          </div>
+        </div>
 
-        <h1>Flatiron Mingle</h1>
-        <p>Dating Application</p>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
-        <br/>
-        <a>GitHub repo: </a>
-        <br/>
-        <a>Demo</a>
-        <p>Technologies Used: </p>
 
+        <div className="item">
+          <div className="image">
+            <h1 className="projectTitle">FIM</h1>
+            <img src={require("../images/projectLogos/fim.png")} alt=""/>
+          </div>
+          <div className="middle aligned content">
+            <div className="ui top attached segment">
+              <p>Description: Dating Application</p>
+            </div>
+            <div className="ui attached segment">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
+              <a>GitHub repo</a>
+              <a>Demo</a>
+            </div>
+            <h4 className="ui bottom attached segment">
+              <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+            </h4>
+          </div>
+        </div>
 
       </div>
+    </div>
     )
   }
 

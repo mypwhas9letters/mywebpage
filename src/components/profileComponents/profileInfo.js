@@ -12,7 +12,7 @@ const ProfileInfo = () => {
           <span className="date">Joined in 2013</span>
         </div>
         <div className="description">
-          Kristy is an art director living in New York.
+          Software Engineer living in New York.
         </div>
       </div>
       <div className="extra content">

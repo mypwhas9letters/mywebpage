@@ -10,15 +10,14 @@ class Profile extends React.Component{
   render() {
     return(
         <div className="ui stackable grid container">
-          <div className="four wide left floated column">
+          <div className="four wide left floated center aligned column">
             <ProfileInfo />
             <AboutMe />
           </div>
           <div className="eight wide column">
             <Content />
           </div>
-          <div className="four wide  column">
-            <Contact />
+          <div className="four wide column">
             <Contact />
             <Contact />
           </div>
