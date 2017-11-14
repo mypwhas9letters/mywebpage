@@ -9,7 +9,7 @@ const ProfileInfo = () => {
       <div className="content">
         <a className="header">Hui Jake Wang</a>
         <div className="meta">
-          <span className="date">Joined in 2013</span>
+          <span className="date">PlaceHolder</span>
         </div>
         <div className="description">
           Software Engineer living in New York.
@@ -18,7 +18,7 @@ const ProfileInfo = () => {
       <div className="extra content">
         <a>
           <i className="user icon"></i>
-          22 Friends
+          Test
         </a>
       </div>
     </div>

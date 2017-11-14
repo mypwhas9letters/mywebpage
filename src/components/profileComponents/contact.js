@@ -7,10 +7,16 @@ const Contact = () => {
         <div className="header">Contact Me</div>
       </div>
       <div className="content">
-        <a href="https://www.linkedin.com/in/hui-wang-81a9a67a/">LinkedIn</a>
+        <button class="ui linkedin button">
+          <i class="linkedin icon"></i>
+          <a href="https://www.linkedin.com/in/hui-wang-81a9a67a/"><span style={{color: 'white'}}>LinkedIn</span></a>
+        </button>
       </div>
       <div className="content">
-        <a href="https://github.com/mypwhas9letters">Github</a>
+        <button class="ui black button">
+          <i class="github icon"></i>
+          <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
+        </button>
       </div>
       <div className="content">
         Email: huiwang339@gmail.com

@@ -19,7 +19,6 @@ class Profile extends React.Component{
           </div>
           <div className="four wide column">
             <Contact />
-            <Contact />
           </div>
         </div>
     )

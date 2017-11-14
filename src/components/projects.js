@@ -14,15 +14,33 @@ class Projects extends React.Component{
             </div>
             <div className="middle aligned content">
               <div className="ui top attached segment">
-                <p>Description: An Airbnb for parking spaces</p>
-              </div>
-              <div className="ui attached segment">
-                <a href="https://parallelp.herokuapp.com" target="_blank" rel="noopener noreferrer">Link to Project</a>
-                <a>GitHub repo</a>
-                <a>Demo</a>
+                <p>Parallel: An Airbnb for parking spaces</p>
+
+                  <button class="ui primary button">
+                    <a href="https://parallelp.herokuapp.com" target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+                  </button>
+
+
+                  <button class="ui black button">
+                    <i class="github icon"></i>
+                    <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
+                  </button>
+                  <button class="ui youtube button">
+                    <i class="youtube icon"></i>
+                    Demo
+                  </button>
               </div>
               <h4 className="ui bottom attached segment">
-                <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+                <p>Built with:</p>
+                <div className="ui tiny images">
+                  <img src={require("../images/logos/react.png")} alt=""/>
+                  <img src={require("../images/logos/redux.png")} alt=""/>
+                  <img src={require("../images/logos/javascript.png")} alt=""/>
+                  <img src={require("../images/logos/rails.png")} alt=""/>
+                  <img src={require("../images/logos/ruby.png")} alt=""/>
+                  <img src={require("../images/logos/html.png")} alt=""/>
+                  <img src={require("../images/logos/css.svg")} alt=""/>
+                </div>
               </h4>
             </div>
           </div>
@@ -30,20 +48,35 @@ class Projects extends React.Component{
 
         <div className="item">
           <div className="image">
-            <h1 className="projectTitle">LHFT</h1>
+            <h1 className="centerAndSize">LHFT</h1>
             <img src={require("../images/projectLogos/lets.png")} alt=""/>
           </div>
           <div className="middle aligned content">
             <div className="ui top attached segment">
-              <p>Description: Social Networking Events App</p>
+              <p>Lets Have Fun Together: Social Networking Events App</p>
             </div>
             <div className="ui attached segment">
-              <a href="https://lets-events.herokuapp.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
-              <a>GitHub repo</a>
-              <a>Demo</a>
+              <button class="ui primary button">
+                <a href="https://lets-events.herokuapp.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+              </button>
+              <button class="ui black button">
+                  <i class="github icon"></i>
+                  <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
+                </button>
+                <button class="ui youtube button">
+                  <i class="youtube icon"></i>
+                  Demo
+                </button>
             </div>
             <h4 className="ui bottom attached segment">
-              <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+              <p>Built with:</p>
+              <div className="ui tiny images">
+                <img src={require("../images/logos/rails.png")} alt=""/>
+                <img src={require("../images/logos/ruby.png")} alt=""/>
+                <img src={require("../images/logos/javascript.png")} alt=""/>
+                <img src={require("../images/logos/html.png")} alt=""/>
+                <img src={require("../images/logos/css.svg")} alt=""/>
+              </div>
             </h4>
           </div>
         </div>
@@ -51,20 +84,36 @@ class Projects extends React.Component{
 
         <div className="item">
           <div className="image">
-            <h1 className="projectTitle">Posigram</h1>
+            <h1 className="centerAndSize">Posigram</h1>
             <img src={require("../images/projectLogos/instaFam.png")} alt=""/>
           </div>
           <div className="middle aligned content">
             <div className="ui top attached segment">
-              <p>Description: Photo Sharing Application Where Negative Comments Are Blocked</p>
+              <p>Posigram: Photo Sharing Application Where Negative Comments Are Blocked</p>
             </div>
             <div className="ui attached segment">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
-              <a>GitHub repo</a>
-              <a>Demo</a>
+              <button class="ui primary button">
+                <a href="https://github.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+              </button>
+                <button class="ui black button">
+                  <i class="github icon"></i>
+                  <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
+                </button>
+                <button class="ui youtube button">
+                  <i class="youtube icon"></i>
+                  Demo
+                </button>
             </div>
             <h4 className="ui bottom attached segment">
-              <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+              <p>Built with:</p>
+              <div className="ui tiny images">
+                <img src={require("../images/logos/react.png")} alt=""/>
+                <img src={require("../images/logos/javascript.png")} alt=""/>
+                <img src={require("../images/logos/rails.png")} alt=""/>
+                <img src={require("../images/logos/ruby.png")} alt=""/>
+                <img src={require("../images/logos/html.png")} alt=""/>
+                <img src={require("../images/logos/css.svg")} alt=""/>
+              </div>
             </h4>
           </div>
         </div>
@@ -77,15 +126,30 @@ class Projects extends React.Component{
           </div>
           <div className="middle aligned content">
             <div className="ui top attached segment">
-              <p>Description: Dating Application</p>
+              <p>Flatiron Mingle: Dating Application</p>
             </div>
             <div className="ui attached segment">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Link to Project</a>
-              <a>GitHub repo</a>
-              <a>Demo</a>
+              <button class="ui primary button">
+                <a href="https://github.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+              </button>
+              <button class="ui black button">
+                <i class="github icon"></i>
+                <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
+              </button>
+              <button class="ui youtube button">
+                <i class="youtube icon"></i>
+                Demo
+              </button>
             </div>
             <h4 className="ui bottom attached segment">
-              <p>Technologies Used: React, Redux, Javascript, Ruby on Rails</p>
+              <p>Built with:</p>
+              <div className="ui tiny images">
+                <img src={require("../images/logos/javascript.png")} alt=""/>
+                <img src={require("../images/logos/rails.png")} alt=""/>
+                <img src={require("../images/logos/ruby.png")} alt=""/>
+                <img src={require("../images/logos/html.png")} alt=""/>
+                <img src={require("../images/logos/css.svg")} alt=""/>
+              </div>
             </h4>
           </div>
         </div>

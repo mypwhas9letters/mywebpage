@@ -6,7 +6,7 @@ class NavBar extends React.Component{
 
   render() {
     return(
-      <div className="ui huge fixed inverted borderless menu navHeight">
+      <div className="ui huge inverted menu navHeight">
         <div className="ui container">
           <NavLink className="item" to="/">Home</NavLink>
           <div className="right menu">
