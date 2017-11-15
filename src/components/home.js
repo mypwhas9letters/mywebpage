@@ -6,7 +6,7 @@ class Home extends React.Component{
     return(
       <div className="bgimg">
         <div className="ui container">
-          <h1>Hui Wang</h1>
+          <h1 className="welcomeText">Hui Wang</h1>
         </div>
       </div>
     )

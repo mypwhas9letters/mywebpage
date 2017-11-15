@@ -15,23 +15,19 @@ class Projects extends React.Component{
             <div className="middle aligned content">
               <div className="ui top attached segment">
                 <p>Parallel: An Airbnb for parking spaces</p>
-
-                  <button class="ui primary button">
-                    <a href="https://parallelp.herokuapp.com" target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
-                  </button>
-
-
-                  <button class="ui black button">
-                    <i class="github icon"></i>
-                    <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
-                  </button>
-                  <button class="ui youtube button">
-                    <i class="youtube icon"></i>
-                    Demo
-                  </button>
+                <button className="ui primary button">
+                  <a href="https://parallelp.herokuapp.com" target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+                </button>
+                <button className="ui black button">
+                  <i className="github icon"></i>
+                  <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
+                </button>
+                <button className="ui youtube button">
+                  <i className="youtube icon"></i>
+                  Demo
+                </button>
               </div>
               <h4 className="ui bottom attached segment">
-                <p>Built with:</p>
                 <div className="ui tiny images">
                   <img src={require("../images/logos/react.png")} alt=""/>
                   <img src={require("../images/logos/redux.png")} alt=""/>
@@ -56,15 +52,15 @@ class Projects extends React.Component{
               <p>Lets Have Fun Together: Social Networking Events App</p>
             </div>
             <div className="ui attached segment">
-              <button class="ui primary button">
+              <button className="ui primary button">
                 <a href="https://lets-events.herokuapp.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
               </button>
-              <button class="ui black button">
-                  <i class="github icon"></i>
+              <button className="ui black button">
+                  <i className="github icon"></i>
                   <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
                 </button>
-                <button class="ui youtube button">
-                  <i class="youtube icon"></i>
+                <button className="ui youtube button">
+                  <i className="youtube icon"></i>
                   Demo
                 </button>
             </div>
@@ -92,15 +88,15 @@ class Projects extends React.Component{
               <p>Posigram: Photo Sharing Application Where Negative Comments Are Blocked</p>
             </div>
             <div className="ui attached segment">
-              <button class="ui primary button">
+              <button className="ui primary button">
                 <a href="https://github.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
               </button>
-                <button class="ui black button">
-                  <i class="github icon"></i>
+                <button className="ui black button">
+                  <i className="github icon"></i>
                   <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
                 </button>
-                <button class="ui youtube button">
-                  <i class="youtube icon"></i>
+                <button className="ui youtube button">
+                  <i className="youtube icon"></i>
                   Demo
                 </button>
             </div>
@@ -129,15 +125,15 @@ class Projects extends React.Component{
               <p>Flatiron Mingle: Dating Application</p>
             </div>
             <div className="ui attached segment">
-              <button class="ui primary button">
+              <button className="ui primary button">
                 <a href="https://github.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
               </button>
-              <button class="ui black button">
-                <i class="github icon"></i>
+              <button className="ui black button">
+                <i className="github icon"></i>
                 <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
               </button>
-              <button class="ui youtube button">
-                <i class="youtube icon"></i>
+              <button className="ui youtube button">
+                <i className="youtube icon"></i>
                 Demo
               </button>
             </div>
