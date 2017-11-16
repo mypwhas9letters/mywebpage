@@ -1,4 +1,5 @@
 import React from 'react'
+import MyResume from './resume/myResume'
 
 class Resume extends React.Component{
   constructor(props){
@@ -11,26 +12,18 @@ class Resume extends React.Component{
   onClick = (event) => {
     event.preventDefault()
     this.setState({type: event.target.name})
-    console.log(this.state);
   }
 
-
   render() {
+    let resumeView = this.state.type === "HTML" ? <img src={require("../images/resume.jpg")} className="resume" alt=""/> : <MyResume />
     return(
       <div style={{backgroundColor: "black"}}>
         <div className="ui container">
           <div className="ui text inverted menu">
-            <a className="item" name="HTML" onClick={this.onClick}>
-              HTML
-            </a>
-            <a className="item" name="PDF" onClick={this.onClick}>
-              PDF
-            </a>
-            <a className="item" name="Regular" onClick={this.onClick}>
-              Regular
-            </a>
+            <a className="item" name="HTML" onClick={this.onClick}>HTML</a>
+            <a className="item" name="PDF" onClick={this.onClick}>PDF</a>
           </div>
-          <img src={require("../images/resume.jpg")} className="resume" alt=""/>
+          {resumeView}
         </div>
       </div>
     )

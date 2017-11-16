@@ -27,6 +27,7 @@ body {
 
 .welcomeText {
   font-size: 500%;
+  color: white;
 }
 
 .projectTitle {
@@ -38,9 +39,4 @@ body {
 .centerAndSize {
   text-align: center;
   font-size: 250%;
-}
-
-
-.menu {
-
 }

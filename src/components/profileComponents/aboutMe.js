@@ -12,12 +12,13 @@ const AboutMe = () => {
             Education:
           </div>
           <div className="description">
-            Flatiron School
+            Flatiron School - Full Stack Web Development
           </div>
           <div className="description">
-            Stony Brook University
+            Stony Brook University - Health Science
           </div>
         </div>
+
       </div>
     </div>
   )

@@ -5,25 +5,20 @@ const ProfileInfo = () => {
     <div className="ui stackable cards">
       <div className="ui card">
         <div className="image">
-          <img src="https://i.pinimg.com/736x/4d/31/91/4d31913b7459a096e6b591b7e3e95304--cute-husky-puppies-husky-puppys.jpg" alt=""/>
+          <img src={require("../../images/profile.jpg")} alt=""/>
         </div>
         <div className="content">
           <a className="header">Hui Jake Wang</a>
           <div className="meta">
-            <span className="date">PlaceHolder</span>
+            <span className="date">Software Engineer</span>
           </div>
         </div>
         <div className="content">
           <div className="description">
-            Software Engineer living in New York.
+            Something interesting about me or a quote
           </div>
         </div>
-        <div className="extra content">
-          <a>
-            <i className="user icon"></i>
-            Test
-          </a>
-        </div>
+
       </div>
     </div>
   )

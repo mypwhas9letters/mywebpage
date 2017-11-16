@@ -2,7 +2,10 @@ import React from 'react'
 import Contact from './profileComponents/contact'
 import Content from './profileComponents/content'
 import AboutMe from './profileComponents/aboutMe'
+import Skills from './profileComponents/skills'
 import ProfileInfo from './profileComponents/profileInfo'
+import Photos from './profileComponents/photos'
+
 
 
 class Profile extends React.Component{
@@ -18,7 +21,9 @@ class Profile extends React.Component{
             <Content />
           </div>
           <div className="four wide center aligned column">
+            <Skills />
             <Contact />
+            <Photos />
           </div>
         </div>
     )
