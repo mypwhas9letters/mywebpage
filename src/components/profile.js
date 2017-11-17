@@ -21,8 +21,8 @@ class Profile extends React.Component{
             <Content />
           </div>
           <div className="four wide center aligned column">
-            <Skills />
             <Contact />
+            <Skills />
             <Photos />
           </div>
         </div>

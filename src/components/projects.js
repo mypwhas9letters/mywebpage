@@ -25,11 +25,11 @@ class Projects extends React.Component{
                 </button>
                 <button className="ui black button">
                   <i className="github icon"></i>
-                  <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>Front End</span></a>
+                  <a href="https://github.com/mypwhas9letters/parking-front"><span style={{color: 'white'}}>Front End</span></a>
                 </button>
                 <button className="ui black button">
                   <i className="github icon"></i>
-                  <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>Back End</span></a>
+                  <a href="https://github.com/mypwhas9letters/parking-backend"><span style={{color: 'white'}}>Back End</span></a>
                 </button>
               </div>
               <h4 className="ui bottom attached segment">
@@ -66,11 +66,7 @@ class Projects extends React.Component{
               </button>
               <button className="ui black button">
                 <i className="github icon"></i>
-                <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>Front End</span></a>
-              </button>
-              <button className="ui black button">
-                <i className="github icon"></i>
-                <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>Back End</span></a>
+                <a href="https://github.com/mthorry/EventsApp"><span style={{color: 'white'}}>Github Repo</span></a>
               </button>
             </div>
             <h4 className="ui bottom attached segment">
@@ -98,7 +94,7 @@ class Projects extends React.Component{
             </div>
             <div className="ui attached segment">
               <button className="ui primary button">
-                <a href="https://github.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+                <a href="https://github.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Deploy In Progress</span></a>
               </button>
               <button className="ui youtube button">
                 <i className="youtube icon"></i>
@@ -139,7 +135,7 @@ class Projects extends React.Component{
             </div>
             <div className="ui attached segment">
               <button className="ui primary button">
-                <a href="https://github.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+                <a href="https://github.com/"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Deploy In Progress</span></a>
               </button>
               <button className="ui youtube button">
                 <i className="youtube icon"></i>
@@ -147,11 +143,11 @@ class Projects extends React.Component{
               </button>
               <button className="ui black button">
                 <i className="github icon"></i>
-                <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>Front End</span></a>
+                <a href="https://github.com/mypwhas9letters/Flatiron-Mingle-FrontEnd"><span style={{color: 'white'}}>Front End</span></a>
               </button>
               <button className="ui black button">
                 <i className="github icon"></i>
-                <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>Back End</span></a>
+                <a href="https://github.com/mypwhas9letters/Flatiron-Mingle"><span style={{color: 'white'}}>Back End</span></a>
               </button>
             </div>
             <h4 className="ui bottom attached segment">
