@@ -15,13 +15,16 @@ class Projects extends React.Component{
             </div>
             <div className="middle aligned content">
               <div className="ui top attached segment">
-                <p>Parallel: An Airbnb for parking spaces</p>
+                <p>Parallel: An Airbnb for parking spaces.</p>
+                <p>Finding parking in a crowded city can be very difficult. All those hours spent circling blocks and looking for an empty parking space. Constantly disappointed to find empty spaces to be someone's driveway. This app allows homeowners to rent away their driveways and drivers to rent availble parking spaces.</p>
+              </div>
+              <div className="ui attached segment">
                 <button className="ui primary button">
                   <a href="https://parallelp.herokuapp.com" target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
                 </button>
                 <button className="ui youtube button">
                   <i className="youtube icon"></i>
-                  Demo
+                  <a href="https://www.youtube.com/watch?v=z5vbNNILsso&feature=youtu.be"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Demo</span></a>
                 </button>
                 <button className="ui black button">
                   <i className="github icon"></i>
@@ -54,7 +57,8 @@ class Projects extends React.Component{
           </div>
           <div className="middle aligned content">
             <div className="ui top attached segment">
-              <p>Lets Have Fun Together: Social Networking Events App</p>
+              <p>Let's Have Fun Together: Social Networking Events App</p>
+              <p>An app to keep your events organized. Users can search for upcoming events, buy tickets, and see where their friends are up to.  </p>
             </div>
             <div className="ui attached segment">
               <button className="ui primary button">
@@ -62,7 +66,7 @@ class Projects extends React.Component{
               </button>
               <button className="ui youtube button">
                 <i className="youtube icon"></i>
-                Demo
+                <a href="https://www.youtube.com/watch?v=-WCUovxEPIM&feature=youtu.be"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Demo</span></a>
               </button>
               <button className="ui black button">
                 <i className="github icon"></i>
@@ -139,7 +143,7 @@ class Projects extends React.Component{
               </button>
               <button className="ui youtube button">
                 <i className="youtube icon"></i>
-                Demo
+                <a href="https://www.youtube.com/watch?v=joNrkW-PDCU"  target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Demo</span></a>
               </button>
               <button className="ui black button">
                 <i className="github icon"></i>
