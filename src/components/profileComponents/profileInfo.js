@@ -15,7 +15,7 @@ const ProfileInfo = () => {
         </div>
         <div className="content">
           <div className="description">
-            Something interesting about me or a quote
+            Full stack web developer with a passion for building applications that make our lives easier.
           </div>
         </div>
 

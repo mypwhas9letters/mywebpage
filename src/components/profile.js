@@ -6,26 +6,24 @@ import Skills from './profileComponents/skills'
 import ProfileInfo from './profileComponents/profileInfo'
 import Photos from './profileComponents/photos'
 
-
-
 class Profile extends React.Component{
 
   render() {
     return(
-        <div className="ui stackable grid container">
-          <div className="four wide left floated center aligned column">
-            <ProfileInfo />
-            <AboutMe />
-          </div>
-          <div className="eight wide column">
-            <Content />
-          </div>
-          <div className="four wide center aligned column">
-            <Contact />
-            <Skills />
-            <Photos />
-          </div>
+      <div className="ui stackable grid container">
+        <div className="four wide left floated column">
+          <ProfileInfo />
+          <AboutMe />
         </div>
+        <div className="eight wide column">
+          <Content />
+        </div>
+        <div className="four wide center aligned column">
+          <Contact />
+          <Skills />
+          <Photos />
+        </div>
+      </div>
     )
   }
 
