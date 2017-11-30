@@ -10,8 +10,8 @@ class Photos extends React.Component {
     galleryItems: [
       {
         src: 'https://gfp-2a3tnpzj.stackpathdns.com/wp-content/uploads/2016/05/Major_photo-2-600x600.jpg',
-        w: 1200,
-        h: 900,
+        w: 600,
+        h: 600,
         title: 'Image 1'
       },
       {
@@ -42,9 +42,9 @@ class Photos extends React.Component {
     })
   }
 
-  getThumbnailContent = (item) => {
+  getThumbnailContent = () => {
     return (
-        <img src={item.src} alt=""/>
+        <img src={'https://i.pinimg.com/736x/4b/ac/ae/4bacae535ca54f50a04ed59b29448d1e--husky-pups-siberian-husky-puppies.jpg'} alt=""/>
     )
   }
 
