@@ -34,6 +34,13 @@ class Content extends React.Component{
                 <div className="ui item segment">
                 <i className="ui huge medium icon"></i>
                   <div className="content">
+                    <a className="header" href="https://medium.com/@huiwang339/javascript-data-structures-queue-c488b32ca4d2">HTML Canvas Animation with Javascript</a>
+                    Javascript Data Structures: Queue
+                  </div>
+                </div>
+                <div className="ui item segment">
+                <i className="ui huge medium icon"></i>
+                  <div className="content">
                     <a className="header" href="https://medium.com/@huiwang339/html-canvas-animation-with-javascript-1956426287d3">HTML Canvas Animation with Javascript</a>
                     A tutorial on creating a simple HTML canvas animation with Javascript blogpost.
                   </div>

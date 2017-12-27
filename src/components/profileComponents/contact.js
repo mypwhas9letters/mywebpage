@@ -17,10 +17,6 @@ const Contact = () => {
             <i className="github icon"></i>
             <a href="https://github.com/mypwhas9letters"><span style={{color: 'white'}}>GitHub</span></a>
           </button>
-          <button className="ui instagram button">
-            <i className="instagram icon"></i>
-            <a href="https://www.instagram.com/huiwang3/?hl=en"><span style={{color: 'white'}}>Instagram</span></a>
-          </button>
           <button className="ui green button">
             <i className="medium icon"></i>
             <a href="https://medium.com/@huiwang339"><span style={{color: 'white'}}>Medium</span></a>

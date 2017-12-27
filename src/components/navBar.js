@@ -8,9 +8,9 @@ class NavBar extends React.Component{
     return(
       <div className="ui huge fixed inverted menu navHeight">
         <div className="ui container">
-          <NavLink className="item" to="/">Hui Jake Wang</NavLink>
+          <NavLink className="item" to="/">Jake Hui Wang</NavLink>
           <div className="right menu">
-            <NavLink className="item" to="/profile">Profile</NavLink>
+            <NavLink className="item" to="/">Profile</NavLink>
             <NavLink className="item" to="/projects">Projects</NavLink>
             <NavLink className="item" to="/resume">Resume</NavLink>
           </div>

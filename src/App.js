@@ -14,9 +14,8 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        <Route exact path='/' component={Home} />
         <Route exact path='/resume' component={Resume} style={{backgroundColor: "black"}}/>
-        <Route exact path='/profile' component={Profile} />
+        <Route exact path='/' component={Profile} />
         <Route exact path='/projects' component={Projects} />
         <Footer />
       </div>
