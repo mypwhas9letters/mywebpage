@@ -11,10 +11,12 @@ const Skills = () => {
           <img src={require("../../images/logos/react.png")} alt=""/>
           <img src={require("../../images/logos/redux.png")} alt=""/>
           <img src={require("../../images/logos/javascript.png")} alt=""/>
+          <img src={require("../../images/logos/node_js.png")} alt=""/>
           <img src={require("../../images/logos/rails.png")} alt=""/>
           <img src={require("../../images/logos/ruby.png")} alt=""/>
           <img src={require("../../images/logos/html.png")} alt=""/>
           <img src={require("../../images/logos/css.svg")} alt=""/>
+          <img src={require("../../images/logos/bootstrap.png")} alt=""/>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
-import React from 'react'
-import MyResume from './resume/myResume'
+import React from 'react';
+
+import MyResume from './resume/myResume';
 
 class Resume extends React.Component{
   constructor(props){
@@ -17,7 +18,7 @@ class Resume extends React.Component{
   render() {
     let resumeView = this.state.type === "HTML" ? <img src={require("../images/resume.jpg")} className="resume" alt=""/> : <MyResume />
     return(
-      <div style={{backgroundColor: "black"}}>
+      <div className="resumePage">
         <div className="ui container">
           <div className="ui text inverted menu">
             <a className="item" name="HTML" onClick={this.onClick}>HTML</a>
@@ -31,4 +32,4 @@ class Resume extends React.Component{
 
 }
 
-export default Resume
+export default Resume;

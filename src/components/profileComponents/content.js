@@ -29,7 +29,10 @@ class Content extends React.Component{
     return(
       <div>
         <div className="ui segment">
-            <h1>Blog Posts and Interesting Articles</h1>
+          <h1>Blog Posts and Interesting Articles</h1>
+        </div>
+        <div className="ui segment">
+
               <div className="ui relaxed list">
                 <div className="ui item segment">
                 <i className="ui huge medium icon"></i>

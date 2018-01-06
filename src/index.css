@@ -1,33 +1,40 @@
 body {
-  margin-top: 50px ;
+  margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #A6CCF5;
+  background-image: url("./images/bgLaptop.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-.bgimg {
-  background-image: url("./images/home.jpeg");
+.ui.segment.inverted {
+  background-color: black;
+  margin-bottom: -5px;
+  margin-top: -10px;
+}
+
+/* .bgimg {
+  background-image: url("./images/bgLaptop.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% top;
   background-attachment: fixed;
   height: 100vh;
-}
+} */
 
 .resume {
   width: 100%;
-
 }
 
-.navHeight {
-  height: 50px;
-  background-color: black;
-
+.w {
+  height: 100%;
 }
 
 .welcomeText {
   font-size: 500%;
-  color: white;
+  position: absolute;
+  top: 35%;
 }
 
 .projectTitle {
@@ -39,4 +46,31 @@ body {
 .centerAndSize {
   text-align: center;
   font-size: 250%;
+}
+
+h1, h3 {
+  font-family: 'Italiana', cursive;
+}
+
+.profileMargin {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.resumePage {
+  background-color: black;
+  margin: -15px;
+}
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Lemon', cursive; */
+
+.ui.card, .ui.cards>.card {
+  width: 100%;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }

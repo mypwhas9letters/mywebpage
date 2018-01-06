@@ -1,16 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-class Home extends React.Component{
-
-  render() {
-    return(
-      <div className="bgimg">
-        <div className="ui container">
-          <h1 className="welcomeText">Hui Jake Wang</h1>
-        </div>
-      </div>
-    )
-  }
+const Home = () => {
+  return(
+    <div className="ui container Site">
+      <h1 className="welcomeText">Jake Wang<br/>FullStack Developer</h1>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
