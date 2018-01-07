@@ -21,7 +21,6 @@ class Resume extends React.Component{
       <div className="resumePage">
         <div className="ui container">
           <br/>
-
           <div className="ui text inverted menu">
             <a className="item" name="HTML" onClick={this.onClick}>HTML</a>
             <a className="item" name="PDF" onClick={this.onClick}>PDF</a>
