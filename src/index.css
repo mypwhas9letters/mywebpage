@@ -1,7 +1,9 @@
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 110%;
   background-image: url("./images/bgLaptop.jpeg");
   background-size: cover;
   background-attachment: fixed;
@@ -13,15 +15,6 @@ body {
   margin-bottom: -5px;
   margin-top: -10px;
 }
-
-/* .bgimg {
-  background-image: url("./images/bgLaptop.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 100% top;
-  background-attachment: fixed;
-  height: 100vh;
-} */
 
 .resume {
   width: 100%;
@@ -48,9 +41,7 @@ body {
   font-size: 250%;
 }
 
-h1, h3 {
-  font-family: 'Italiana', cursive;
-}
+
 
 .profileMargin {
   margin-top: 15px;
@@ -62,8 +53,6 @@ h1, h3 {
   margin: -15px;
 }
 
-/* font-family: 'Oswald', sans-serif;
-font-family: 'Lemon', cursive; */
 
 .ui.card, .ui.cards>.card {
   width: 100%;
@@ -73,4 +62,37 @@ font-family: 'Lemon', cursive; */
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+}
+
+
+h1, h3 {
+  font-family: 'Italiana', cursive;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-hide{
+        display: none !important;
+    }
+    .ui.stackable.grid>.wide.column {
+      margin-top: 30px !important;
+      margin-bottom: 25px !important;
+    }
+    .ui.items:not(.unstackable)>.item>.imgMargin {
+      margin-bottom: 40px;
+    }
+    .ui.button {
+      margin: 2px;
+    }
+    .ui.divided.items>.item {
+      text-align: center;
+    }
+    .ui.cards~.ui.cards {
+      text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  .large-hide{
+      display: none !important;
+  }
 }

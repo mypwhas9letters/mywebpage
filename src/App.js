@@ -7,6 +7,7 @@ import Resume from './components/resume';
 import Profile from './components/profile';
 import Projects from './components/projects';
 import Footer from './components/footer';
+import Activities from './components/activities';
 
 class App extends Component {
   render() {
@@ -14,8 +15,9 @@ class App extends Component {
       <div>
         <NavBar />
         <Route exact path='/' component={Home} />
+        <Route exact path='/activities' component={Activities} />
         <Route exact path='/resume' component={Resume} />
-        <Route exact path='/profile' component={Profile} className="bgimg" />
+        <Route exact path='/profile' component={Profile} />
         <Route exact path='/projects' component={Projects} />
         <Footer />
       </div>

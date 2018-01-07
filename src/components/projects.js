@@ -84,7 +84,7 @@ class Projects extends React.Component{
 
 
         <div className="item">
-          <div className="image">
+          <div className="image imgMargin">
             <h1 className="centerAndSize">LHFT</h1>
             <img src={require("../images/projectLogos/lets.png")} alt=""/>
           </div>
@@ -121,7 +121,7 @@ class Projects extends React.Component{
 
 
         <div className="item">
-          <div className="image">
+          <div className="image imgMargin">
             <h1 className="centerAndSize">Posigram</h1>
             <img src={require("../images/projectLogos/instaFam.png")} alt=""/>
           </div>

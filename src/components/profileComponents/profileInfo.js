@@ -10,7 +10,7 @@ const ProfileInfo = () => {
         <div className="content">
           <a className="header">Jake Hui Wang</a>
           <div className="meta">
-            <span className="date">Software Engineer</span>
+            <span className="date">Full Stack Software Engineer</span>
           </div>
         </div>
         <div className="content">
@@ -25,3 +25,6 @@ const ProfileInfo = () => {
 }
 
 export default ProfileInfo
+
+// Prior to starting my career in web development, I would endlessly have fantastic ideas for small apps. None of which would come into fruition ... empowered me to ideate and create fully.
+// Not too long ago, I remember constantly saying "I wish there is an app for that". Now I'm can say 

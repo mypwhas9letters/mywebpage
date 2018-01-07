@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Content extends React.Component{
+class Activities extends React.Component{
   constructor(props){
     super(props)
     this.state = {
@@ -27,9 +27,10 @@ class Content extends React.Component{
 
   render(){
     return(
-      <div>
+      <div className="ui  stackable grid container">
+      <div className="eight wide left floated column profileMargin">
         <div className="ui segment">
-          <h1>Blog Posts and Interesting Articles</h1>
+          <h1>What I've Been Up To</h1>
         </div>
         <div className="ui segment">
 
@@ -37,7 +38,7 @@ class Content extends React.Component{
                 <div className="ui item segment">
                 <i className="ui huge medium icon"></i>
                   <div className="content">
-                    <a className="header" href="https://medium.com/@huiwang339/javascript-data-structures-queue-c488b32ca4d2">HTML Canvas Animation with Javascript</a>
+                    <a className="header" href="https://medium.com/@huiwang339/javascript-data-structures-queue-c488b32ca4d2">BlogPost: Javascript Data Structures: Queue</a>
                     Javascript Data Structures: Queue
                   </div>
                 </div>
@@ -79,10 +80,10 @@ class Content extends React.Component{
               </div>
             </div>
 
-
+</div>
       </div>
     )
   }
 }
 
-export default Content
+export default Activities

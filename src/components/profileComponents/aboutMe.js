@@ -4,17 +4,25 @@ const AboutMe = () => {
   return(
     <div className="ui stackable cards">
       <div className="ui card">
+
         <div className="content">
-          <a className="header">About Me</a>
+          <h3>About Me</h3>
         </div>
+
         <div className="content">
           <div className="description">
-            Education:
+            <p>Education:</p>
+            Flatiron School - Full Stack Web Development<br/>
+            Stony Brook University - Health Science
           </div>
+        </div>
+
+        <div className="content">
           <div className="description">
-            <p>Flatiron School - Full Stack Web Development</p>
-            <p>Stony Brook University - Health Science</p>
-          </div>
+            <p>Hobbies:</p>
+            Guitar
+        </div>
+
         </div>
 
       </div>
