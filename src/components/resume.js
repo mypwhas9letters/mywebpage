@@ -1,6 +1,7 @@
 import React from 'react';
 
 import MyResume from './resume/myResume';
+import HTMLResume from './resume/HTMLResume';
 
 class Resume extends React.Component{
   constructor(props){
@@ -16,7 +17,7 @@ class Resume extends React.Component{
   }
 
   render() {
-    let resumeView = this.state.type === "HTML" ? <img src={require("../images/resume.jpg")} className="resume" alt=""/> : <MyResume />
+    let resumeView = this.state.type === "HTML" ? <HTMLResume /> : <MyResume />
     return(
       <div className="resumePage">
         <div className="ui container">

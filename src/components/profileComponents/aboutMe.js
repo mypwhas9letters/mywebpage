@@ -1,14 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const AboutMe = () => {
   return(
     <div className="ui stackable cards">
       <div className="ui card">
-
         <div className="content">
           <h3>About Me</h3>
         </div>
-
         <div className="content">
           <div className="description">
             <p>Education:</p>
@@ -16,18 +14,16 @@ const AboutMe = () => {
             Stony Brook University - Health Science
           </div>
         </div>
-
         <div className="content">
           <div className="description">
             <p>Hobbies:</p>
-            Guitar
+            Guitar<br/>
+            Building Applications
+          </div>
         </div>
-
-        </div>
-
       </div>
     </div>
   )
 }
 
-export default AboutMe
+export default AboutMe;

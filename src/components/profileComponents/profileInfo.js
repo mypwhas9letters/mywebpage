@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ProfileInfo = () => {
   return(
@@ -16,15 +16,12 @@ const ProfileInfo = () => {
         <div className="content">
           <div className="description">
             Full stack web developer with a passion for building applications that make our lives easier.
+            Not too long ago, I remember constantly saying "I wish there is an app for that". Now I can say "Which technology I should use to build it." Coding has given me the ability to create anything I want.
           </div>
         </div>
+      </div>
     </div>
-  </div>
-
   )
 }
 
-export default ProfileInfo
-
-// Prior to starting my career in web development, I would endlessly have fantastic ideas for small apps. None of which would come into fruition ... empowered me to ideate and create fully.
-// Not too long ago, I remember constantly saying "I wish there is an app for that". Now I'm can say 
+export default ProfileInfo;
