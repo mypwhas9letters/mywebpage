@@ -7,7 +7,7 @@ class Resume extends React.Component{
   constructor(props){
     super(props)
     this.state = {
-      type: "HTML"
+      type: "resume"
     }
   }
 
@@ -17,14 +17,15 @@ class Resume extends React.Component{
   }
 
   render() {
-    let resumeView = this.state.type === "HTML" ? <HTMLResume /> : <MyResume />
+    let resumeView = this.state.type === "html" ? <HTMLResume /> : <MyResume />
     return(
       <div className="resumePage">
         <div className="ui container">
           <br/>
           <div className="ui text inverted menu">
-            <a className="item" name="HTML" onClick={this.onClick}>HTML</a>
-            <a className="item" name="PDF" onClick={this.onClick}>PDF</a>
+            <a className="item" name="resume" onClick={this.onClick}>Resume</a>
+            <a className="item" name="html" onClick={this.onClick}>HTML</a>
+            <a className="item" name="pdf" onClick={this.onClick}>PDF</a>
           </div>
           {resumeView}
         </div>
