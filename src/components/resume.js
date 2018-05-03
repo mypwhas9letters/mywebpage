@@ -2,6 +2,8 @@ import React from 'react';
 
 import MyResume from './resume/myResume';
 import HTMLResume from './resume/HTMLResume';
+import SvgResume from './resume/imgResume';
+
 
 class Resume extends React.Component{
   constructor(props){
@@ -17,7 +19,17 @@ class Resume extends React.Component{
   }
 
   render() {
-    let resumeView = this.state.type === "html" ? <HTMLResume /> : <MyResume />
+    let resumeView;
+    switch(this.state.type) {
+        case "pdf":
+            resumeView = <MyResume />
+            break;
+        case "html":
+            resumeView = <HTMLResume />
+            break;
+        default:
+            resumeView =<SvgResume />
+    }
     return(
       <div className="resumePage">
         <div className="ui container">

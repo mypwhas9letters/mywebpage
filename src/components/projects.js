@@ -10,6 +10,36 @@ class Projects extends React.Component{
 
           <div className="item">
             <div className="image">
+              <h1 className="centerAndSize">React Google Maps NPM</h1>
+              <img src={require("../images/logos/npm.png")} alt=""/>
+            </div>
+            <div className="middle aligned content">
+              <div className="ui top attached segment">
+                <p>Simple React Google Maps</p>
+                <p>
+                  A Node package for React applications. Allow users to quickly add Google Maps in to their React Component.
+                </p>
+              </div>
+              <div className="ui attached segment">
+                <button className="ui primary button">
+                  <a href="https://www.npmjs.com/package/simple-react-google-maps" target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+                </button>
+                <button className="ui black button">
+                  <i className="github icon"></i>
+                  <a href="https://github.com/mypwhas9letters/simple-react-google-maps"><span style={{color: 'white'}}>Github Repo</span></a>
+                </button>
+              </div>
+              <h4 className="ui bottom attached segment">
+                <div className="ui tiny images">
+                  <img src={require("../images/logos/react.png")} alt=""/>
+                  <img src={require("../images/logos/javascript.png")} alt=""/>
+                </div>
+              </h4>
+            </div>
+          </div>
+
+          <div className="item">
+            <div className="image">
               <h1 className="centerAndSize">Bit Regret</h1>
               <img src={require("../images/projectLogos/bitregret.png")} alt=""/>
             </div>
