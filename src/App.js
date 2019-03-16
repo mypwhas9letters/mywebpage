@@ -7,6 +7,8 @@ import Resume from './components/resume';
 import Profile from './components/profile';
 import Projects from './components/projects';
 import Footer from './components/footer';
+import Photography from './components/photography';
+
 // import Activities from './components/activities';
 
 class App extends Component {
@@ -18,6 +20,7 @@ class App extends Component {
         <Route exact path='/resume' component={Resume} />
         <Route exact path='/profile' component={Profile} />
         <Route exact path='/projects' component={Projects} />
+        <Route exact path='/photography' component={Photography} />
         <Footer />
       </div>
     )

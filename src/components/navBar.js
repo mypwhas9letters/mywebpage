@@ -12,9 +12,9 @@ const NavBar = () => {
           <NavLink className="item" to="/resume"><h3>Resume</h3></NavLink>
         </div>
 
-        <div class="ui right simple dropdown item large-hide">
-            Menu <i class="dropdown icon"></i>
-            <div class=" menu">
+        <div className="ui right simple dropdown item large-hide">
+            Menu <i className="dropdown icon"></i>
+          <div className=" menu">
               <NavLink className="item" to="/profile"><h3>Profile</h3></NavLink>
               <NavLink className="item" to="/projects"><h3>Projects</h3></NavLink>
               <NavLink className="item" to="/resume"><h3>Resume</h3></NavLink>
