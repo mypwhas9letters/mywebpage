@@ -83,7 +83,7 @@ class Projects extends React.Component{
               </div>
               <div className="ui attached segment">
                 <button className="ui primary button">
-                  <a href="https://huijwang.com" target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
+                  <a href="https://parallel-front-end.herokuapp.com/" target="_blank" rel="noopener noreferrer"><span style={{color: 'white'}}>Link to Project</span></a>
                 </button>
                 <button className="ui youtube button">
                   <i className="youtube icon"></i>
