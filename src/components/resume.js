@@ -1,15 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import MyResume from './resume/myResume';
 import SvgResume from './resume/imgResume';
 
-
-class Resume extends React.Component{
-  constructor(props){
-    super(props)
-    this.state = {
-      type: "resume"
-    }
+class Resume extends Component{
+  state = {
+    type: "resume"
   }
 
   onClick = (event) => {
@@ -31,8 +27,8 @@ class Resume extends React.Component{
         <div className="ui container">
           <br/>
           <div className="ui text inverted menu">
-            <a className="item" name="resume" onClick={this.onClick}>Resume</a>
-            <a className="item" name="pdf" onClick={this.onClick}>PDF</a>
+            <button className="item" name="resume" onClick={this.onClick}>Resume</button>
+            <button className="item" name="pdf" onClick={this.onClick}>PDF</button>
           </div>
           {resumeView}
         </div>

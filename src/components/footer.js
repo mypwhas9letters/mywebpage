@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="ui container">
         <div className="ui horizontal inverted small divided link list">
           <NavLink className="item" to="/">Home</NavLink>
-          <NavLink className="item" to="/">Profile</NavLink>
+          <NavLink className="item" to="/profile">Profile</NavLink>
           <NavLink className="item" to="/projects">Projects</NavLink>
           <NavLink className="item" to="/resume">Resume</NavLink>
         </div>

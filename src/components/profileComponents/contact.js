@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="fluid ui vertical buttons">
             <button className="ui google plus button">
               <i className="google icon"></i>
-              <a href=""><span style={{color: 'white'}}>huiwang339@gmail.com</span></a>
+              <div><span style={{color: 'white'}}>huiwang339@gmail.com</span></div>
             </button>
             <button className="ui black button">
               <i className="github icon"></i>

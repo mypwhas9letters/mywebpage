@@ -8,7 +8,7 @@ const ProfileInfo = () => {
           <img src={require("../../images/profile.jpg")} alt=""/>
         </div>
         <div className="content">
-          <a className="header">Jake Hui Wang</a>
+          <div className="header">Jake Hui Wang</div>
           <div className="meta">
             <span className="date">Full Stack Software Engineer</span>
           </div>
