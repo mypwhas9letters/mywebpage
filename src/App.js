@@ -9,8 +9,6 @@ import Projects from './components/projects';
 import Footer from './components/footer';
 import Photography from './components/photography';
 
-// import Activities from './components/activities';
-
 class App extends Component {
   render() {
     return (
@@ -28,5 +26,3 @@ class App extends Component {
 }
 
 export default App;
-
-// <Route exact path='/activities' component={Activities} />

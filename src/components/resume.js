@@ -1,7 +1,6 @@
 import React from 'react';
 
 import MyResume from './resume/myResume';
-import HTMLResume from './resume/HTMLResume';
 import SvgResume from './resume/imgResume';
 
 
@@ -24,9 +23,6 @@ class Resume extends React.Component{
         case "pdf":
             resumeView = <MyResume />
             break;
-        case "html":
-            resumeView = <HTMLResume />
-            break;
         default:
             resumeView =<SvgResume />
     }
@@ -36,7 +32,6 @@ class Resume extends React.Component{
           <br/>
           <div className="ui text inverted menu">
             <a className="item" name="resume" onClick={this.onClick}>Resume</a>
-            <a className="item" name="html" onClick={this.onClick}>HTML</a>
             <a className="item" name="pdf" onClick={this.onClick}>PDF</a>
           </div>
           {resumeView}
