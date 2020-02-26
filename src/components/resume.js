@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import MyResume from './resume/myResume';
 import SvgResume from './resume/imgResume';
 
-class Resume extends Component{
+class Resume extends Component {
   state = {
     type: "resume"
   }
@@ -35,7 +35,6 @@ class Resume extends Component{
       </div>
     )
   }
-
 }
 
 export default Resume;
