@@ -28,7 +28,6 @@ class Resume extends Component {
           <br/>
           <div className="ui text inverted menu">
             <button className="item" name="resume" onClick={this.onClick}>Resume</button>
-            <button className="item" name="pdf" onClick={this.onClick}>PDF</button>
           </div>
           {resumeView}
         </div>
@@ -38,3 +37,6 @@ class Resume extends Component {
 }
 
 export default Resume;
+
+
+// <button className="item" name="pdf" onClick={this.onClick}>PDF</button>
